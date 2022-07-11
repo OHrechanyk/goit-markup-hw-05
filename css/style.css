@@ -271,9 +271,8 @@ body {
 }
 .backdrop,
 .is-hidden {
-  /* opacity: 0; */
+  opacity: 0;
   pointer-events: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
@@ -298,18 +297,21 @@ body {
 
 .icon-close {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 8px;
   right: 8px;
+  width: 30px;
+  height: 30px;
   padding: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  cursor: pointer;
   background-color: inherit;
 }
 .icon-close-black {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 11px;
+  height: 11px;
 }
 
 /* О нас */
